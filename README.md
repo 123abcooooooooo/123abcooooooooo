@@ -1,16 +1,23 @@
-## Hi there 👋
+# Helicopter Reservation App
 
-<!--
-**123abcooooooooo/123abcooooooooo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This project provides a simple web interface and API for scheduling family helicopter flights with fixed destinations or custom trips that require approval.
 
-Here are some ideas to get you started:
+## Setup
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+npm install
+```
+
+## Running the server
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in a browser to access the reservation page.
+
+## Tests
+
+```bash
+npm test
+```

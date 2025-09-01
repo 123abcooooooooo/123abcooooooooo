@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Helicopter Reservations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Helicopter Reservations</h1>
+  <form id="reserveForm">
+    <input type="text" name="user" placeholder="Your name" required>
+    <select name="destination" id="destination">
+      <option value="Lago Atitlan">Lago Atitlan</option>
+      <option value="Antigua Guatemala">Antigua Guatemala</option>
+      <option value="Puerto">Puerto</option>
+      <option value="Other">Other</option>
+    </select>
+    <input type="text" name="customDestination" id="customDestination" placeholder="Custom destination" style="display:none">
+    <input type="number" name="duration" id="duration" placeholder="Duration (minutes)" style="display:none">
+    <input type="datetime-local" name="startTime" required>
+    <button type="submit">Reserve</button>
+  </form>
+  <h2>Schedule</h2>
+  <ul id="reservations"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
