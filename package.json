@@ -1,0 +1,19 @@
+{
+  "name": "123abcooooooooo",
+  "version": "1.0.0",
+  "description": "<!-- **123abcooooooooo/123abcooooooooo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  }
+}
